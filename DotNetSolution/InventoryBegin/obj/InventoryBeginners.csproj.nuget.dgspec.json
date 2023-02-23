@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj": {}
+    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj": {}
   },
   "projects": {
-    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj": {
+    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
+        "projectUniqueName": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
         "projectName": "InventoryBeginners",
-        "projectPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
+        "projectPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
         "packagesPath": "C:\\Users\\aksha\\.nuget\\packages\\",
-        "outputPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\InventoryBegin\\obj\\",
+        "outputPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

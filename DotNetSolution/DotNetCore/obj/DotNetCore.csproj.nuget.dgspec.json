@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\DotNetCore\\DotNetCore.csproj": {}
+    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\DotNetCore\\DotNetCore.csproj": {}
   },
   "projects": {
-    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\DotNetCore\\DotNetCore.csproj": {
+    "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\DotNetCore\\DotNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\DotNetCore\\DotNetCore.csproj",
+        "projectUniqueName": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\DotNetCore\\DotNetCore.csproj",
         "projectName": "DotNetCore",
-        "projectPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\DotNetCore\\DotNetCore.csproj",
+        "projectPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\DotNetCore\\DotNetCore.csproj",
         "packagesPath": "C:\\Users\\aksha\\.nuget\\packages\\",
-        "outputPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\DotNetCore\\obj\\",
+        "outputPath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\DotNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

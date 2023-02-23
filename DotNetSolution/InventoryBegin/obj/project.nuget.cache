@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PgneH/efhnpgS0vKnMB19cEYNIDcknHtr0mar8t1da5qB4z9l4tm/8MyPemxTjvvk6ZR0ZS8j9FBqhhY4WtsLQ==",
+  "dgSpecHash": "WEgoHDXn8FuXsq7/tn/QSXzqGBg2bEoFBUPQ+CTHJ7fkO4STaTA49dEWar5T0u3fSd2J09pqRYEucGy5UnxP/A==",
   "success": true,
-  "projectFilePath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
+  "projectFilePath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aksha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aksha\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.9\\microsoft.aspnetcore.cryptography.internal.5.0.9.nupkg.sha512",
