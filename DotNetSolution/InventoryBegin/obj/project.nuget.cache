@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WEgoHDXn8FuXsq7/tn/QSXzqGBg2bEoFBUPQ+CTHJ7fkO4STaTA49dEWar5T0u3fSd2J09pqRYEucGy5UnxP/A==",
+  "dgSpecHash": "1FS/ZSJMOu56auyPDoWGX92U4h6n/haUNkH34981ZxR1wiuNCh451t6sS4NWxbic6m0HLFwtKSs2/IPBtgc0zw==",
   "success": true,
   "projectFilePath": "D:\\Vaishnav Engineering\\Smart Working & learning Education\\Projects\\DotNetSolution\\DevOps\\DotNetSolution\\InventoryBegin\\InventoryBeginners.csproj",
   "expectedPackageFiles": [
@@ -64,7 +64,7 @@
     "C:\\Users\\aksha\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\aksha\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\aksha\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

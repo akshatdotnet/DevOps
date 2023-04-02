@@ -26,5 +26,47 @@ namespace DotNetFramework._4._7._2.Controllers
 
             return View();
         }
+
+        //========================Ajax Call Show Json Data in Popup
+
+        public JsonResult GetUsersData()
+        {
+            var users = GetUsers();
+            return Json(users, JsonRequestBehavior.AllowGet);
+        }
+        private List<UserModel> GetUsers()
+        {
+            var usersList = new List<UserModel>
+            {
+                //new UserModel
+                //{
+                //    UserId = 1,
+                //    UserName = "Ram",
+                //    Company = "Mindfire Solutions"
+                //},
+                //new UserModel
+                //{
+                //    UserId = 1,
+                //    UserName = "chand",
+                //    Company = "Mindfire Solutions"
+                //},
+                new UserModel
+                {
+                    UserId = 1,
+                    UserName = "Abc",
+                    Company = "Abc Solutions"
+                }
+            };
+
+            return usersList;
+        }
+        public class UserModel
+        {
+            public int UserId { get; set; }
+            public string UserName { get; set; }
+            public string Company { get; set; }
+        }
+
+
     }
 }

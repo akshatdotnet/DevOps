@@ -4,6 +4,19 @@
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
+<table id="records_table" border='1'>
+    <tr>
+        <th>UserName</th>
+        <th>Company</th>
+        <th>UserId</th>
+    </tr>
+</table>
+
+
+<div class="container">
+    <button type="submit" class="btn-default" id="btnSubmit">Click Popup</button>
+</div>
+
 <address>
     One Microsoft Way<br />
     Redmond, WA 98052-6399<br />
@@ -15,3 +28,95 @@
     <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
 </address>
+
+<table>
+    <tr>
+        <td class="gases" title="Hidrógeno" id="H">Click</td>
+    </tr>
+</table>
+
+
+
+<script src="~/Scripts/jquery-3.4.1.js">
+</script>
+<script>
+
+    $('#btnSubmit').click(function () {
+        //alert("button");
+        $.ajax({
+            url: "GetUsersData",
+            dataType: "json",
+            success: function (data) {           
+
+                //alert(data);
+                // On success, display the data in a SweetAlert popup
+                //var trHTML = '';
+                //$.each(data, function (i, item) {
+                //    trHTML += '<tr><td>' + item.Company + ' </td><td>' + item.UserName + ' </td><td>' + item.UserId + '</td></tr>';
+                //});
+                //$('#records_table').append(trHTML);
+
+                // Create an HTML table to display the data
+                var table = '<table>';
+                table += '<thead><tr><th>Company</th><th>UserName</th><th>UserId</th></tr></thead>';
+                table += '<tbody>';
+                $.each(data, function (i, item) {
+                    table += '<tr><td>' + item.Company + '</td><td>' + item.UserName + '</td><td>' + item.UserId + '</td></tr>';
+                });
+                table += '</tbody></table>';
+                //
+                Swal.fire({
+                    title: "JSON Data",
+                    //html: JSON.stringify(data),
+                    html: table,//trHTML,
+                    icon: "success",
+                    confirmButtonText: "OK"
+                });
+            },
+            error: function (xhr, status, error) {
+                // On error, display an error message in a SweetAlert popup
+                Swal.fire({
+                    title: "Error!",
+                    text: "Failed to retrieve JSON data",
+                    icon: "error",
+                    confirmButtonText: "OK"
+                });
+            }
+        });
+    });
+
+
+
+    
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js">
+
+    const elem = document.querySelector(".gases");
+    elem.addEventListener("click", () => {        
+        Swal.fire({
+            title: '¿Cuál es el elemento?',
+            text: 'Introduce el nombre aquí',
+            input: 'text',
+            inputPlaceholder: 'Nombre',
+        }).then(({ value }) => {
+            if (value === "hidrógeno") {
+                Swal.fire('Correct!', 'You got the answer right!', 'success')
+            }
+            if (value === "h") {
+                Swal.fire('Correct!', 'You got the answer right!', 'success')
+            }
+            else {
+                Swal.fire('Incorrect...', 'You failed!', 'error')
+            }
+        });
+    });
+
+
+
+
+    
+
+</script>
+
